@@ -1,0 +1,129 @@
+
+.outer-cont{
+    display: flex;
+    width: 100vw;
+    position: sticky;
+    padding: 0.7rem 1rem;
+}
+.inner-cont1{
+    width: 15vw;
+    display: flex;
+}
+.inner-cont2{
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    cursor: pointer;
+}
+.ham-menu-cont{
+    /* border-radius: 50%; */
+    padding: 0.5rem .7rem;
+    margin-right: .2rem;
+    /* background-color: rgba(95, 99, 104, 0.193); */
+}
+#ham-menu{
+    width: 1.75rem;
+    height: 1.75rem;
+    color: rgb(75,85,99);
+}
+.logo-cont{
+    display: flex;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+.logo-cont > p {
+    color: rgb(98,100,101);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    margin-left: .6rem;
+}
+.img-cont{
+    width: 2rem;
+    height: 1.5rem;
+    margin-left: 0.1rem;
+}
+#gmail-logo{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.centre-cont{
+    width: 50vw;
+    height: 5vh;
+    position: relative;
+    
+}
+.serachbar-cont{
+    width: 45vw;
+    opacity: 0.98;
+    height: 6vh;
+    position: absolute;
+}
+.serachbar-cont >input {
+    width: 100%;
+    height: 100%;
+    padding-left: 4rem;
+    border-radius: .5rem;
+    border: none;
+    outline: rgb(49, 61, 48);
+    background-color: rgb(234,241,251);
+}
+.serachbar-cont >input::placeholder{
+    font-weight: 510;
+    font-size: medium;
+}
+.serachbar-cont >input:focus {
+    background-color: white;
+    border: 1px solid rgba(202, 202, 202, 0.903);
+    border-bottom: 3px solid rgba(202, 202, 202, 0.903) ;
+  }
+.search-btn-cont{
+    width: 2rem;
+    opacity: .99;
+    height: 2rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    border-radius: 50px;
+}
+.search-btn{
+    width: 1.75rem;
+    margin-top: .5rem;
+    height: 1.5rem;
+}
+.cntrl-btn-cont{
+    width: 2rem;
+    height: 2rem;
+    margin-top: .5rem;
+    margin-left: 78%;
+    border-radius: 50px;
+}
+.cntrl-btn{
+    width: 1.75rem;
+    height: 1.5rem;
+    margin-top: .7rem;
+    transform: rotate(-0.25turn);
+}
+.right-side-cont{
+    display: flex;
+}
+.icons{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: .1rem;
+    border-radius: 50px;
+    padding: .1rem;
+    /* background-color: rgba(95, 99, 104, 0.193); */
+}
+.icon{
+    height: 1.3rem;
+    width: 1.3rem;
+    margin: .4rem;
+}
+#profile{
+    height: 2rem;
+    margin: .2rem;
+    margin-left: 1.5rem;
+}

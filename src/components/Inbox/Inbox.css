@@ -1,0 +1,101 @@
+.inbox{
+    background-color: white;
+    border-radius: 20px;
+    width: 82vw;
+    height: 90vh;
+    overflow-y: auto;
+}
+.icons-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    height: 3rem; 
+}
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.square-btn{
+    width: 1.7rem;
+    height: 2rem;
+    margin: .1rem;
+    border-radius: 5px;
+    padding: .5rem .3rem;
+}
+.drop-btn{
+    width: 1rem;
+    height: 2rem;
+    margin: -0.4rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    padding: .3rem .1rem;
+}
+.circular-btn{
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 30px;
+    margin: .1rem;
+    padding: .7rem .7rem;
+}
+.rect-btn{
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 5px;
+    margin: .1rem;
+    padding: .5rem .4rem;
+}
+.heading-cont{
+    display: flex;
+    height: 6.5vh;
+    border-bottom: 2px ridge rgba(255, 255, 255, 0.321);
+}
+.sub-heading-cont{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 16vw;
+    padding: 1rem 1rem;
+}
+#text{
+    margin-left: 1rem;
+}
+.email-cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.375rem 1.5rem;
+    border-bottom: 2px ridge rgba(255, 255, 255, 0.321);
+}
+.expeditor{
+    width: 8rem;
+    font-weight: 700;
+}
+.msg-cont{
+    display: flex;
+    align-items: center;
+    width: 16rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.title{
+    font-weight: 600;
+}
+.msg{
+    padding-left: .25rem;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.time{
+    width: 6rem;
+    text-align: end;
+}
+.emails-cont{
+    display: block;
+    overflow: hidden;
+}

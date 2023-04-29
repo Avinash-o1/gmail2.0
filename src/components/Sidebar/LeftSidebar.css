@@ -1,0 +1,48 @@
+.left-sidebar-cont{
+    width: 16vw;
+    height: 90vh;
+}
+.compose-cont{
+    display: flex;
+    height: 3.6rem;
+    width: 60%;
+    align-items: center;
+    border-radius: 1rem;
+    margin-left: .5rem;
+    background-color: rgb(194,231,255);
+}
+.logo{
+    height: 1.5rem;
+    width: auto;
+    margin: .9rem;
+}
+.text{
+    height: 1.5rem;
+    width: auto;
+    margin: .2rem;
+    font-weight: 500;
+}
+.sidebtn-cont{
+    margin-top: 1rem;
+}
+.sidebtn{
+    display: flex;
+    width: 14.5vw;
+    margin: .1rem;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    height: 4vh;
+    background-color: rgb(211,227,253);
+}
+.icon{
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+.labels-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 4vh;
+}

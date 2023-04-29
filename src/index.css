@@ -1,0 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.app{
+  background-color: rgb(246,248,252);
+}
+.main{
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+}
