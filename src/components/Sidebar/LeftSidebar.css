@@ -11,6 +11,12 @@
     margin-left: .5rem;
     background-color: rgb(194,231,255);
 }
+.compose-cont:hover{
+    border-top: 1px solid rgba(95, 99, 104, 0.193);
+    border-left: 2px solid rgba(95, 99, 104, 0.193);
+    border-right: 3px solid rgba(95, 99, 104, 0.193);
+    border-bottom: 3px solid rgba(95, 99, 104, 0.193);
+}
 .logo{
     height: 1.5rem;
     width: auto;
@@ -32,6 +38,11 @@
     align-items: center;
     border-radius: 0px 20px 20px 0px;
     height: 4vh;
+}
+.sidebtn:hover{
+    background-color: rgba(95, 99, 104, 0.193);
+}
+.active{
     background-color: rgb(211,227,253);
 }
 .icon{

@@ -46,7 +46,7 @@ const Inbox = () => {
       <div className="emails-cont">
         {/* heading-cont */}
         <div className="heading-cont">
-          <div className="sub-heading-cont">
+          <div className="sub-heading-cont current">
             <CgInbox />
             <p id="text">Primary</p>
           </div>
